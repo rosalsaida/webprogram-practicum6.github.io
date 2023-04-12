@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Melodin';
+    src: url("../Melodin Font/Melodin.otf");
+}
+
+header {
+    background-color: rgb(251 113 133);
+    height: 110px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-logo {
+    font-family: 'Melodin';
+    font-size: 36px;
+    float: left;
+    padding: 25px 10px 0 40px;
+}
+
+.header-list {
+    font-size: 18px;
+    font-weight: 400;
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+.header-menu a {
+    color: white;
+    text-decoration: none;
+    line-height: 110px;
+    margin: 0 30px;
+    display: block;
+}
+
+.header-menu:hover,
+.header-menu a:hover {
+    background-color: rgb(190 18 60);
+    color: rgb(253 164 175);
+}
+
+.container {
+    padding-top: 150px;
+}
+
+.line-one,
+.line-two {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+    float: left;
+}
+
+.card-text {
+    font-size: 15px;
+    background-color: antiquewhite;
+}
+
+.btn {
+    font-size: 15px;
+}
+
+form,
+.form-title {
+    margin: 30px 200px;
+}
+
+.name {
+    width: 50%;
+    float: left;
+}
+
+#name1 {
+    padding: 0 20px 0 0;
+}
+
+#name2 {
+    padding: 0 0 0 20px;
+}
