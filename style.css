@@ -65,3 +65,9 @@ li {
 .card-text a:hover {
     color: #D5B4B4;
 }
+
+.uts {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
