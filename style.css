@@ -39,6 +39,12 @@ li {
     background-color: #D5B4B4;
 }
 
+article {
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -66,7 +72,7 @@ li {
     color: #D5B4B4;
 }
 
-.uts {
+.container1 {
     display: flex;
     justify-content: center;
     padding: 5px 0;
